@@ -1,0 +1,16 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    margin: 30px;
+}
+@media (max-width:900px){
+    .box{
+        background-color: limegreen;
+    }
+} 
+@media (max-width:600px){
+    .box{
+        background-color: purple;
+    }
+}

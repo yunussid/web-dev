@@ -1,0 +1,15 @@
+/*adjacent sibling collector*/
+h2 + p {
+    font-weight: bold;
+}    
+/*general sibling collector*/
+h2 ~ p{
+    color: red;
+}
+/*child combinators*/
+section > p{
+    background-color: rosybrown;
+}
+section p{
+    font-family: monospace;
+}
