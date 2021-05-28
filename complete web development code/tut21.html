@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .container {
+            width: 900px;
+            border: 3px solid purple;
+            margin: 33px auto;
+            background: rgb(238, 234, 195);
+
+        }
+
+        .item {
+            border: 3px solid grey;
+            padding: 12px 3px;
+            margin: 12px 3px;
+            background: rgb(235, 184, 184);
+
+        }
+
+        #fruits {
+            float: left;
+            width: 48%;
+        }
+
+        #computer {
+            float: left;
+            width: 48%;
+        }
+
+        #stationary {
+            /* float: left; */
+            width: 100%;
+            clear: both;
+        }
+
+        p,
+        h3 {
+            /* text-align: right; */
+            /* text-align: left; */
+            text-align: justify;
+        }
+
+        h1 {
+            margin: 23px auto;
+            width: 455px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to my store</h1>
+        <div id="fruits" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="class">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio
+                porro ex maiores nulla, libero, aliquam repellendus corrupti vel blanditiis voluptas eligendi nesciunt
+                doloremque quia nisi ipsa esse perferendis rem. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Est dicta ab illo amet odio ipsum deleniti, tempore mollitia? Itaque quam et reprehenderit! Quod dolore,
+                deserunt esse nobis quidem nulla laboriosam corporis maiores sequi consequuntur.</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>Computer</h3>
+            <p id="computerpara" class="class">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, est neque
+                explicabo quaerat nisi dicta repudiandae recusandae animi quam sit inventore ut expedita dolorum ad
+                facilis tempore quidem dolor earum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis,
+                architecto velit. Maxime nihil cupiditate distinctio neque eveniet nesciunt tempora voluptatem, ut
+                corrupti soluta, nemo qui ullam suscipit architecto ex veniam obcaecati harum vitae iure.</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>Stationary</h3>
+            <p id="stationarypara" class="class">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam impedit
+                praesentium quod at vel voluptatem, ut tempora quas odio exercitationem ipsum eos neque optio aliquam
+                rem voluptate! Quas, ducimus dolorum.</p>
+        </div>
+        <div id="glasses" class="item">
+            <h3>Glasses</h3>
+            <p id="glassespara" class="class">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam impedit
+                praesentium quod at vel voluptatem, ut tempora quas odio exercitationem ipsum eos neque optio aliquam
+                rem voluptate! Quas, ducimus dolorum.</p>
+        </div>
+    </div>
+</body>
+
+</html>
